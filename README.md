@@ -25,7 +25,7 @@ This project is a **Streamlit-based dashboard** designed to query data from a CS
 ## Installation
 
 ### Clone this repository:
-```bash
+
 git clone https://github.com/vinayp1120/AI-Agent
 
 
