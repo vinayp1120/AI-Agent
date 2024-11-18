@@ -119,6 +119,15 @@ git clone https://github.com/vinayp1120/AI-Agent
 - **Model Input Length**:
   - Llama 2 has a context limit, meaning it can only process a certain amount of input text. Managing large amounts of data and summarizing them within this context limit is a critical challenge. Ensuring that the most relevant information is included within the input to the model is crucial for generating useful outputs.
 
+## Loom Video Walkthrough
+
+Watch a 2-minute walkthrough of the project here:  
+[Watch the video](https://youtu.be/7axrvr2NZT8?si=1Wxzbb8PRRCwFaaQ)
+
+This video covers:
+- The overall purpose of the project.
+- Key features and how the dashboard works.
+- Notable code implementations and challenges faced.
 
 
 
