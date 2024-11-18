@@ -14,6 +14,20 @@ This project is a **Streamlit-based dashboard** designed to query data from a CS
 - **Downloadable Results**: Export processed data and summaries to CSV.
 
 ---
+##LLM model Specifications:
+Llama 2 7B Model Specifications
+The llama-2-7b-chat.ggmlv3.q6_K.bin model is a variant of the Llama 2 7B model, specifically fine-tuned for chat applications with optimizations for efficient performance. Below are the key specifications of the model:
+
+1.)**Model Type**: Llama 2, with 7 billion parameters, fine-tuned for conversational tasks (chat-based AI).
+2.)**Quantization**: The model uses q6_K quantization, which reduces the model size and makes it more efficient to run, though with some trade-offs in accuracy. This quantization is a 6-bit format.
+3.)**File Size**: Approximately 5.53 GB.
+4.)**RAM Requirement**: Around 8.03 GB of RAM for efficient inference.
+5.)**Compatibility**: Optimized for use with the llama.cpp engine, designed to provide efficient model inference on local machines.
+Additionally, the model supports various quantization methods, allowing you to choose between q2_K, q3_K_S, q4_K_S, q5_K_S, and q6_K. Each quantization method offers different trade-offs between model performance (accuracy) and memory requirements.
+
+## Usage Notes
+1.)**Local Setup**: Ensure your system meets the necessary RAM and resource requirements for running large models, especially when using quantization methods like q6_K.
+2.)**Model Location**: You can place the model file in a local directory, for example: C:/llmproject/llama-2-7b-chat.ggmlv3.q6_K.bin, and reference this path in your code.
 
 ## Setup Instructions
 
