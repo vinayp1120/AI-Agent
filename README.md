@@ -29,4 +29,21 @@ This project is a **Streamlit-based dashboard** designed to query data from a CS
 git clone https://github.com/vinayp1120/AI-Agent
 
 
+## Download and Set Up the Llama 2 Model
+
+1. **Download the Llama 2 Model**:
+   - Download the `llama-2-7b-chat.ggmlv3.q6_K.bin` model file.
+
+2. **Place the Model File**:
+   - After downloading, place the model file in the directory `C:/llmproject`.
+   
+   Alternatively, if you prefer a different directory, you can update the file path in the script. 
+   Locate the following line in the code and modify the path accordingly:
+   ```python
+   model = 'C:/llmproject/llama-2-7b-chat.ggmlv3.q6_K.bin'
+
+
+
+
+
 
