@@ -39,8 +39,11 @@ git clone https://github.com/vinayp1120/AI-Agent
    
    Alternatively, if you prefer a different directory, you can update the file path in the script. 
    Locate the following line in the code and modify the path accordingly:
-   ```python
    model = 'C:/llmproject/llama-2-7b-chat.ggmlv3.q6_K.bin'
+
+3.**Run the Streamlit app:
+-  Copy code
+  streamlit run app.py
 
 
 
